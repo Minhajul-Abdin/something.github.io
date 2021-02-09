@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 0.5s;
+}
+
+body.active {
+  background: #1f1f1f;
+  transition: 0.5s;
+}
+
+.box {
+  width: 700px;
+  height: 140px;
+  background: rgb(8, 252, 232);
+  text-align: center;
+  padding: 30px;
+  box-shadow: -2px 2px 15px 1px;
+  transition: 0.5s;
+}
+
+.box.active {
+  background: rgb(59, 67, 71);
+  color: #fff;
+  width: 700px;
+  height: 140px;
+  text-align: center;
+  padding: 30px;
+  box-shadow: -2px 2px 15px 1px;
+  transition: 0.5s;
+  transition: 0.5s;
+}
+
+.butt {
+  color: #fff;
+  background: rgb(18, 18, 19);
+  border: none;
+  border-radius: 40px;
+  padding: 15px;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  transition: 0.5s;
+}
+
+.butt.active {
+  color: #fff;
+  background: rgb(107, 103, 103);
+  transition: 0.5s;
+}
